@@ -1,0 +1,15 @@
+You are working in ~/Workspace/big-thinkers on branch setup/entire-checkpoints. There are changed files that need to be committed:
+
+1. .entire/settings.json - updated with Entire review profile configuration (output: trail, agents, judge)
+2. AGENTS.md - added Path B (GitButler + Entire + Orca) workflow section
+3. .entire/.gitignore - Entire gitignore
+4. .pi/extensions/entire/index.ts - Pi agent integration hooks
+
+Your job:
+1. Run 'but status' to see current state
+2. Commit all Entire-related and AGENTS.md changes using 'but commit -b setup/entire-checkpoints -m "chore: enable Entire checkpoints + Trail reviews for big-thinkers" .entire/settings.json AGENTS.md .entire/.gitignore .pi/extensions/entire/index.ts'
+3. Run 'but push setup/entire-checkpoints'
+4. Run 'entire checkpoint list --json' to verify checkpoints are recorded
+5. Report back the commit SHA and checkpoint IDs
+
+Do NOT create any other changes - just commit these files through but commit so Entire checkpoints are generated.
