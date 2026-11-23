@@ -1,0 +1,452 @@
+{
+  "https://www.youtube.com/watch?v=JFoMJ17MOOA": {
+    "person_id": "aicodeking",
+    "title": "Inkling 2 Mini is \"Local Opus\"?",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-107": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #107",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=aFmu4rLgH8U": {
+    "person_id": "aicodeking",
+    "title": "This Opensource Repo Actually saves upto 98% USAGE across Codex,Claude & More!?",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=kcxFVl3sIWM": {
+    "person_id": "aicodeking",
+    "title": "Hy4 by Tencent is FULLY FREE & Crazy!",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=eXeJNYojT3A": {
+    "person_id": "aicodeking",
+    "title": "Thanks Google! I am cancelling my Claude subscription...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=wT39a2-QpHw": {
+    "person_id": "aicodeking",
+    "title": "Is GPT-6.2 Astra that BAD?... Sol is REALLY GOOD! (Fully Tested)",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=-0sRekR9sZ4": {
+    "person_id": "aicodeking",
+    "title": "I get Fable-6 Level performance with this Workflow..",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Nov/17/datasette-lite/": {
+    "person_id": "simon-willison",
+    "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=mXZcgH4UyCM": {
+    "person_id": "aicodeking",
+    "title": "China Is Back? I Tested Qwen 4 Max & It's Interesting..",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=hYIymEMB9x4": {
+    "person_id": "indydevdan",
+    "title": "Fable 5.2 is CRACKED but THIS goes BEYOND THE MODEL",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-106": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #106",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=Ij49xfO1iuo": {
+    "person_id": "aicodeking",
+    "title": "This Opensource GUI for Agents is CRAZY GOOD!",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/answer/": {
+    "person_id": "geoffrey-huntley",
+    "title": "the answer to ai is engineering",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/11/9/irontown/": {
+    "person_id": "armin-ronacher",
+    "title": "AI and Irontown",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=GRlcm3wmOqs": {
+    "person_id": "indydevdan",
+    "title": "ZERO to RUNNING Software Factory In 16 Minutes (LIQUID Software)",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Nov/9/mysterious-beeps/": {
+    "person_id": "simon-willison",
+    "title": "Locating the source of a mysterious beep with Claude",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Nov/9/details-summary/": {
+    "person_id": "simon-willison",
+    "title": "Hide your slop PR descriptions behind",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-105": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #105",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/libghostty-1-0": {
+    "person_id": "mitchell-hashimoto",
+    "title": "Libghostty 1.0",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/": {
+    "person_id": "simon-willison",
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=1v7ldJiyH-Y": {
+    "person_id": "indydevdan",
+    "title": "Tiny Software Factories: Agentic Engineering DONE WRONG",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/": {
+    "person_id": "simon-willison",
+    "title": "The U.S. Census Bureau and “Super Intelligence”",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-104": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #104",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/": {
+    "person_id": "armin-ronacher",
+    "title": "Custom Voices With Qwen3-TTS",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/10/29/pub-calls-pub.html": {
+    "person_id": "matklad",
+    "title": "Avoid Public Functions Calling Other Public Functions",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://simonwillison.net/2026/Oct/28/vibe-game-development/": {
+    "person_id": "simon-willison",
+    "title": "The October inflection point for vibe game development",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=52JX83rGPLc": {
+    "person_id": "indydevdan",
+    "title": "ELITE Agentic Engineers Are LEAVING THE LOOP... Here’s why",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-103": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #103",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/patch/": {
+    "person_id": "geoffrey-huntley",
+    "title": "patch the planet",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=OLqP8jxJ0Wc": {
+    "person_id": "indydevdan",
+    "title": "My Jev Pi Durable Agent CURATES News: HYPE, FACT, or SIGNAL",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/underclass/": {
+    "person_id": "geoffrey-huntley",
+    "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/toronto/": {
+    "person_id": "geoffrey-huntley",
+    "title": "state of agentic coding #11: the curiosity test, lisp, and labs that can't fail",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/bot/": {
+    "person_id": "geoffrey-huntley",
+    "title": "revisiting some of my priors about openclaw",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://ghuntley.com/remix/": {
+    "person_id": "geoffrey-huntley",
+    "title": "a new model for open source: closed to pull requests, open to remix.",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://www.youtube.com/watch?v=DNDYYHsypZg": {
+    "person_id": "indydevdan",
+    "title": "Pi Durable PROACTIVE Agents: Jev Triggers My ON-CALL Pi Agent",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/10/07/git-ref.html": {
+    "person_id": "matklad",
+    "title": "On Git Refs",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/program-status-osc7501": {
+    "person_id": "mitchell-hashimoto",
+    "title": "A Terminal Protocol for Program Status (OSC 7501)",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/10/6/codemode/": {
+    "person_id": "armin-ronacher",
+    "title": "What is Codemode",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html": {
+    "person_id": "matklad",
+    "title": "Benchmark In Milliseconds",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://registerspill.thorstenball.com/p/joy-and-curiosity-102": {
+    "person_id": "thorsten-ball",
+    "title": "Joy & Curiosity #102",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/9/29/deser/": {
+    "person_id": "armin-ronacher",
+    "title": "Deser: Rethinking Rust Serialization",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/": {
+    "person_id": "thorsten-ball",
+    "title": "What I believe about the future of software development",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/09/19/finding-bugs.html": {
+    "person_id": "matklad",
+    "title": "Finding Bugs",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/": {
+    "person_id": "armin-ronacher",
+    "title": "Interpreting Pangram",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://lucumr.pocoo.org/2026/9/12/pdoom/": {
+    "person_id": "armin-ronacher",
+    "title": "P(doom)",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html": {
+    "person_id": "matklad",
+    "title": "Static Allocation, Constant Work",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://matklad.github.io/2026/08/31/cancelation-terminology.html": {
+    "person_id": "matklad",
+    "title": "Cancelation Terminology",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://jack-vanlightly.com/blog/2026/8/28/the-atomiclog-logdrive-strong-vs-weak-sealing": {
+    "person_id": "jack-vanlightly",
+    "title": "The AtomicLog + LogDrive: Strong vs weak sealing",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://jack-vanlightly.com/blog/2026/8/25/the-logdrive-flexible-composition-through-abstraction-in-shared-logs": {
+    "person_id": "jack-vanlightly",
+    "title": "The LogDrive: Flexible Composition Through Abstraction in Shared Logs",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/superlogical": {
+    "person_id": "mitchell-hashimoto",
+    "title": "Superlogical",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/everyone-should-know-simd": {
+    "person_id": "mitchell-hashimoto",
+    "title": "Everyone Should Know SIMD",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://jack-vanlightly.com/blog/2026/7/7/apache-kafka-performance-1-lingerms": {
+    "person_id": "jack-vanlightly",
+    "title": "Apache Kafka performance #1 - linger.ms",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://jack-vanlightly.com/blog/2026/7/1/1brc-on-a-threadripper-9980x": {
+    "person_id": "jack-vanlightly",
+    "title": "1BRC on a Threadripper 9980X",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://jack-vanlightly.com/blog/2026/6/30/benchmarking-hardwood-10-on-a-threadripper-9980x": {
+    "person_id": "jack-vanlightly",
+    "title": "Benchmarking Hardwood 1.0 on a Threadripper 9980X",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/zig-donation-2026": {
+    "person_id": "mitchell-hashimoto",
+    "title": "Pledging Another $400,000 to the Zig Software Foundation",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mariozechner.at/posts/2026-05-30-shitty-robot": {
+    "person_id": "mario-zechner",
+    "title": "How to build a shitty robot",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mkqtj5qgw22i": {
+    "person_id": "chris-riccomini",
+    "title": "Things are getting weird. I no longer know whether I’m engaging with a human, a human using ...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/on-chaos-and-turning-inward/": {
+    "person_id": "chris-riccomini",
+    "title": "On Chaos and Turning Inward",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mitchellh.com/writing/ghostty-leaving-github": {
+    "person_id": "mitchell-hashimoto",
+    "title": "Ghostty Is Leaving GitHub",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mkiot52oes2g": {
+    "person_id": "chris-riccomini",
+    "title": "Spent the past week on SlateDB's DST harness. It was a bit of a slog. The more state I explo...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/deterministic-simulation-testing-is-really-hard/": {
+    "person_id": "chris-riccomini",
+    "title": "Deterministic Simulation Testing Is Really Hard",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mjy2ixnxpc22": {
+    "person_id": "chris-riccomini",
+    "title": "Finally got around to writing this up.",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/make-obsidian-feel-like-bear/": {
+    "person_id": "chris-riccomini",
+    "title": "Make Obsidian Feel Like Bear",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mjnrlnv7p22k": {
+    "person_id": "chris-riccomini",
+    "title": "Considering local coding models. Speed, cost, and predictability are starting to matter more...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/starting-to-want-local-models/": {
+    "person_id": "chris-riccomini",
+    "title": "Maybe It’s Time To Start Looking at Local Coding Models",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mjdhp2gnz22o": {
+    "person_id": "chris-riccomini",
+    "title": "A silly little TIL trick I learned recently. Comes in handy when debugging time-dependent ra...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/saturate-cpus-with-yes/": {
+    "person_id": "chris-riccomini",
+    "title": "Use yes to reproduce flaky tests",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://bsky.app/profile/chris.blue/post/3mjabpij44k2w": {
+    "person_id": "chris-riccomini",
+    "title": "If you formed your opinion of agentic coding more than four months ago, I strongly encourage...",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/the-waymo-rule-for-ai-generated-code/": {
+    "person_id": "chris-riccomini",
+    "title": "The Waymo Rule for AI-Generated Code",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mariozechner.at/posts/2026-04-08-ive-sold-out": {
+    "person_id": "mario-zechner",
+    "title": "I've sold out",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/code-quality-for-vibe-coded-projects/": {
+    "person_id": "chris-riccomini",
+    "title": "Code Quality Gates for Vibe-Coded Projects",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://rng.md/posts/opens-source-projects-are-cached-agent-output/": {
+    "person_id": "chris-riccomini",
+    "title": "Open Source Projects Are Cached Agent Output",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down": {
+    "person_id": "mario-zechner",
+    "title": "Thoughts on slowing the fuck down",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mariozechner.at/posts/2025-12-22-year-in-review-2025": {
+    "person_id": "mario-zechner",
+    "title": "Year in Review 2025",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  },
+  "https://mariozechner.at/posts/2025-11-30-pi-coding-agent": {
+    "person_id": "mario-zechner",
+    "title": "What I learned building an opinionated and minimal coding agent",
+    "seen_date": "2026-11-22",
+    "status": "shortlisted"
+  }
+}

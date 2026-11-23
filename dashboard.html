@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Thinkers — Learning Dashboard</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0d1117;
+      --card: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --amber: #d29922;
+      --purple: #bc8cff;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card: #ffffff;
+        --border: #d0d7de;
+        --text: #1f2328;
+        --muted: #656d76;
+        --accent: #0969da;
+        --green: #1a7f37;
+        --amber: #9a6700;
+        --purple: #8250df;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 2rem 1.25rem 4rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; }
+    header { margin-bottom: 1.75rem; }
+    h1 { margin: 0 0 0.35rem; font-size: 1.75rem; }
+    h2 { margin: 2rem 0 0.75rem; font-size: 1.2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    .sub { color: var(--muted); font-size: 0.92rem; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 0.9rem;
+      margin: 1.25rem 0 1.75rem;
+    }
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.15rem;
+    }
+    .stat-label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .stat-val { font-size: 1.65rem; font-weight: 700; margin-top: 0.25rem; }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 0.9rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+    }
+    .card h3 { margin: 0 0 0.3rem; font-size: 1.02rem; }
+    .card p { margin: 0.45rem 0; font-size: 0.9rem; color: var(--muted); }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.45rem; }
+    .badge {
+      font-size: 0.72rem;
+      padding: 0.12rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .badge.ai-agents { color: var(--green); border-color: color-mix(in srgb, var(--green) 45%, transparent); }
+    .badge.systems { color: var(--amber); border-color: color-mix(in srgb, var(--amber) 45%, transparent); }
+    .badge.data-infra { color: var(--purple); border-color: color-mix(in srgb, var(--purple) 45%, transparent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    th, td { text-align: left; padding: 0.65rem 0.85rem; border-bottom: 1px solid var(--border); font-size: 0.88rem; vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.03em; }
+    tr:last-child td { border-bottom: none; }
+    .empty { background: var(--card); border: 1px dashed var(--border); border-radius: 10px; padding: 1.25rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Big Thinkers</h1>
+      <div class="sub">Personal technical reading, synthesis & learning tracker · Generated 2026-11-23</div>
+    </header>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-label">Active Thinkers</div>
+        <div class="stat-val">11</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Study Queue (Budget: 5)</div>
+        <div class="stat-val">0 / 5</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Studied & Applied</div>
+        <div class="stat-val">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Latest Shortlist</div>
+        <div class="stat-val" style="font-size:1rem;margin-top:0.6rem;">
+          <a href="data/inbox/2026-11-22-shortlist.md">2026-11-22-shortlist.md</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>Active Study Queue</h2>
+    <div class="empty">Study queue is open. Review <code>data/inbox/2026-11-22-shortlist.md</code> and run <code>/discover-promote</code> to pull items into your study queue.</div>
+
+    <h2>Followed Thinkers (11)</h2>
+    <div class="card-grid">
+      <div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">substack;blog;x</span>
+              <span class="badge">weekly</span>
+            </div>
+            <h3><a href="https://registerspill.thorstenball.com" target="_blank" rel="noopener">Thorsten Ball</a></h3>
+            <p>Co-creator of Amp; author of Writing An Interpreter/Compiler in Go &amp; Register Spill</p>
+            <p style="color:var(--text);font-size:0.86rem;">Core pick. Writes Register Spill weekly + sharp essays on how tokens and agents reshape software engineering.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge systems">systems</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">monthly</span>
+            </div>
+            <h3><a href="https://mitchellh.com" target="_blank" rel="noopener">Mitchell Hashimoto</a></h3>
+            <p>Creator of Ghostty &amp; Superlogical (Rex); co-founder of HashiCorp</p>
+            <p style="color:var(--text);font-size:0.86rem;">Core pick. Deep systems engineering in Zig, libghostty, terminal protocols for agents (OSC 7501), and pragmatic AI workflows.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">biweekly</span>
+            </div>
+            <h3><a href="https://lucumr.pocoo.org" target="_blank" rel="noopener">Armin Ronacher</a></h3>
+            <p>Creator of Flask/Jinja/Rye; co-creator of Pi coding agent &amp; Earendil</p>
+            <p style="color:var(--text);font-size:0.86rem;">Core pick. First-principles writing on agent harnesses, Codemode, bash vs MCP, Python/Rust tooling, and AI nuance.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge data-infra">data-infra</span>
+              <span class="badge">blog;substack;bluesky;x</span>
+              <span class="badge">biweekly</span>
+            </div>
+            <h3><a href="https://rng.md" target="_blank" rel="noopener">Chris Riccomini</a></h3>
+            <p>Co-author of DDIA 2nd Ed. &amp; SlateDB; author of Materialized View &amp; rng.md</p>
+            <p style="color:var(--text);font-size:0.86rem;">Core pick. Bridges modern storage/data systems (SlateDB, Arrow/Ibis, DDIA) with practical agentic engineering (Wiggum loops, DST, quality gates).</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">youtube;x</span>
+              <span class="badge">daily</span>
+            </div>
+            <h3><a href="https://www.youtube.com/@AICodeKing" target="_blank" rel="noopener">AICodeKing</a></h3>
+            <p>Creator of KingBench &amp; PandaCode; hands-on AI coding model &amp; harness evaluator</p>
+            <p style="color:var(--text);font-size:0.86rem;">Core pick. Fast, empirical YouTube reviews of frontier coding models (KingBench 4), agent GUIs (Rex, Herdr, Traycer), and token-saving tools.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">monthly</span>
+            </div>
+            <h3><a href="https://mariozechner.at" target="_blank" rel="noopener">Mario Zechner</a></h3>
+            <p>Creator of Pi coding agent &amp; libGDX</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Built Pi from scratch; writes blunt, data-backed posts on minimal harnesses, CLI vs MCP, and context discipline.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">youtube;x</span>
+              <span class="badge">weekly</span>
+            </div>
+            <h3><a href="https://www.youtube.com/@indydevdan" target="_blank" rel="noopener">IndyDevDan</a></h3>
+            <p>Creator of Tactical/Infinite Agentic Engineering; multi-agent harness builder</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Harness-first YouTube builder focused on moving in-loop -&gt; near-loop -&gt; out-loop, self-compacting agents, and small agent teams.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge systems">systems</span>
+              <span class="badge">blog</span>
+              <span class="badge">biweekly</span>
+            </div>
+            <h3><a href="https://matklad.github.io" target="_blank" rel="noopener">Alex Kladov (matklad)</a></h3>
+            <p>Engineer at TigerBeetle; creator of rust-analyzer</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Masterclass short essays on module boundaries, randomized/swarm testing, benchmarking, and systems craft.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">weekly</span>
+            </div>
+            <h3><a href="https://simonwillison.net" target="_blank" rel="noopener">Simon Willison</a></h3>
+            <p>Creator of Datasette &amp; llm CLI; co-creator of Django</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Using his long-form /atom/entries/ feed for deep writeups on external agent sandboxes, SQLite/Arrow, and LLM workflows.</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge ai-agents">ai-agents</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">biweekly</span>
+            </div>
+            <h3><a href="https://ghuntley.com" target="_blank" rel="noopener">Geoffrey Huntley</a></h3>
+            <p>Principal Engineer (Antithesis / Amp); creator of Ralph/Wiggum Loop</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Coined loop engineering + back pressure; pairs autonomous coding loops with Nix overlays and property-based testing (Bombadil/Hegel).</p>
+          </div><div class="card">
+            <div class="badges">
+              <span class="badge data-infra">data-infra</span>
+              <span class="badge">blog;x</span>
+              <span class="badge">monthly</span>
+            </div>
+            <h3><a href="https://jack-vanlightly.com" target="_blank" rel="noopener">Jack Vanlightly</a></h3>
+            <p>Distributed systems &amp; formal verification researcher at Confluent</p>
+            <p style="color:var(--text);font-size:0.86rem;">Recommended pick. Deep architectural analyses on Virtual Consensus, LogDrive/Kafka-on-S3, table formats, and TLA+/Fizzbee verification.</p>
+          </div>
+    </div>
+
+    <h2>Recent Activity</h2>
+    <table>
+      <thead>
+        <tr><th>Date</th><th>Entity</th><th>Event</th><th>Note</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>2026-11-22</code></td>
+              <td><code>sweep_completed</code></td>
+              <td>Inaugural baseline sweep across 14 feeds (11 thinkers): 75 items collected, 4 cross-thinker themes synthesized, top 10 ranked in data/inbox/2026-11-22-shortlist.md.</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>jack-vanlightly</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Jack Vanlightly (jack-vanlightly.com/blog?format=rss + @vanlightly).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>geoffrey-huntley</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Geoffrey Huntley (ghuntley.com/rss/ + @GeoffreyHuntley).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>simon-willison</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Simon Willison (long-form entries feed simonwillison.net/atom/entries/ + @simonw).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>matklad</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Alex Kladov / matklad (matklad.github.io/feed.xml).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>indydevdan</code></td>
+              <td><code>person_added</code></td>
+              <td>Added IndyDevDan (YouTube channel UC_x36zCEGilGpB1m-V4gmjg RSS + @indydevdan).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>mario-zechner</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Mario Zechner (mariozechner.at/rss.xml + @badlogicgames).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>aicodeking</code></td>
+              <td><code>person_added</code></td>
+              <td>Added AICodeKing (YouTube channel UC0m81bQuthaQZmFbXEY9QSw RSS + @aicodeking).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>chris-riccomini</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Chris Riccomini (rng.md/rss.xml + materializedview.io/feed + Bluesky @chris.blue RSS + @criccomini).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>armin-ronacher</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Armin Ronacher (lucumr.pocoo.org/feed.atom + @mitsuhiko).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>mitchell-hashimoto</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Mitchell Hashimoto (mitchellh.com/feed.xml + @mitchellh).</td>
+            </tr><tr>
+              <td style="white-space:nowrap;">2026-11-22</td>
+              <td><code>thorsten-ball</code></td>
+              <td><code>person_added</code></td>
+              <td>Added Thorsten Ball (Register Spill Substack + thorstenball.com Atom feed + @thorstenball).</td>
+            </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

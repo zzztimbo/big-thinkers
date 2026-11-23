@@ -1,0 +1,159 @@
+{
+  "feeds": [
+    {
+      "id": "thorsten-register-spill",
+      "person_id": "thorsten-ball",
+      "name": "Thorsten Ball — Register Spill",
+      "url": "https://registerspill.thorstenball.com/feed",
+      "platform": "substack",
+      "format": "newsletter",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "thorsten-blog",
+      "person_id": "thorsten-ball",
+      "name": "Thorsten Ball — Blog",
+      "url": "https://thorstenball.com/atom.xml",
+      "platform": "blog",
+      "format": "essay",
+      "track": "ai-agents",
+      "maxItems": 4
+    },
+    {
+      "id": "mitchell-blog",
+      "person_id": "mitchell-hashimoto",
+      "name": "Mitchell Hashimoto — Writing",
+      "url": "https://mitchellh.com/feed.xml",
+      "platform": "blog",
+      "format": "essay",
+      "track": "systems",
+      "maxItems": 6
+    },
+    {
+      "id": "armin-blog",
+      "person_id": "armin-ronacher",
+      "name": "Armin Ronacher — Thoughts and Writings",
+      "url": "https://lucumr.pocoo.org/feed.atom",
+      "platform": "blog",
+      "format": "essay",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "chris-rng",
+      "person_id": "chris-riccomini",
+      "name": "Chris Riccomini — RNG.md",
+      "url": "https://rng.md/rss.xml",
+      "platform": "blog",
+      "format": "essay",
+      "track": "data-infra",
+      "maxItems": 8
+    },
+    {
+      "id": "chris-materialized-view",
+      "person_id": "chris-riccomini",
+      "name": "Chris Riccomini — Materialized View",
+      "url": "https://materializedview.io/feed",
+      "platform": "substack",
+      "format": "newsletter",
+      "track": "data-infra",
+      "maxItems": 4
+    },
+    {
+      "id": "chris-bluesky",
+      "person_id": "chris-riccomini",
+      "name": "Chris Riccomini — Bluesky (@chris.blue)",
+      "url": "https://bsky.app/profile/chris.blue/rss",
+      "platform": "bluesky",
+      "format": "thread",
+      "track": "data-infra",
+      "maxItems": 6
+    },
+    {
+      "id": "aicodeking-yt",
+      "person_id": "aicodeking",
+      "name": "AICodeKing — YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0m81bQuthaQZmFbXEY9QSw",
+      "platform": "youtube",
+      "format": "video",
+      "track": "ai-agents",
+      "maxItems": 8
+    },
+    {
+      "id": "mario-blog",
+      "person_id": "mario-zechner",
+      "name": "Mario Zechner — Blog",
+      "url": "https://mariozechner.at/rss.xml",
+      "platform": "blog",
+      "format": "essay",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "indydevdan-yt",
+      "person_id": "indydevdan",
+      "name": "IndyDevDan — YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x36zCEGilGpB1m-V4gmjg",
+      "platform": "youtube",
+      "format": "video",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "matklad-blog",
+      "person_id": "matklad",
+      "name": "Alex Kladov (matklad) — Blog",
+      "url": "https://matklad.github.io/feed.xml",
+      "platform": "blog",
+      "format": "essay",
+      "track": "systems",
+      "maxItems": 6
+    },
+    {
+      "id": "simonw-entries",
+      "person_id": "simon-willison",
+      "name": "Simon Willison — Long-Form Entries",
+      "url": "https://simonwillison.net/atom/entries/",
+      "platform": "blog",
+      "format": "essay",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "ghuntley-blog",
+      "person_id": "geoffrey-huntley",
+      "name": "Geoffrey Huntley — Blog",
+      "url": "https://ghuntley.com/rss/",
+      "platform": "blog",
+      "format": "essay",
+      "track": "ai-agents",
+      "maxItems": 6
+    },
+    {
+      "id": "vanlightly-blog",
+      "person_id": "jack-vanlightly",
+      "name": "Jack Vanlightly — Blog",
+      "url": "https://jack-vanlightly.com/blog?format=rss",
+      "platform": "blog",
+      "format": "essay",
+      "track": "data-infra",
+      "maxItems": 5
+    }
+  ],
+  "xSweep": {
+    "notes": "Swept via BrowserOS neo (authenticated profile) during /discover when live social signal is requested.",
+    "accounts": [
+      { "person_id": "thorsten-ball", "handle": "thorstenball", "priority": "high" },
+      { "person_id": "mitchell-hashimoto", "handle": "mitchellh", "priority": "high" },
+      { "person_id": "armin-ronacher", "handle": "mitsuhiko", "priority": "high" },
+      { "person_id": "chris-riccomini", "handle": "criccomini", "priority": "high" },
+      { "person_id": "aicodeking", "handle": "aicodeking", "priority": "medium" },
+      { "person_id": "mario-zechner", "handle": "badlogicgames", "priority": "high" },
+      { "person_id": "indydevdan", "handle": "indydevdan", "priority": "medium" },
+      { "person_id": "simon-willison", "handle": "simonw", "priority": "medium" },
+      { "person_id": "geoffrey-huntley", "handle": "GeoffreyHuntley", "priority": "high" },
+      { "person_id": "jack-vanlightly", "handle": "vanlightly", "priority": "medium" }
+    ]
+  }
+}

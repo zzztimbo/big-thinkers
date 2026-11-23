@@ -1,0 +1,15 @@
+{
+  "name": "big-thinkers",
+  "version": "1.0.0",
+  "description": "Follow people in tech, collect what they post (blogs, Substack, YouTube, Bluesky, X), and turn it into structured study notes.",
+  "type": "module",
+  "scripts": {
+    "dashboard": "node scripts/build-dashboard.mjs",
+    "discover": "node scripts/discover.mjs collect",
+    "mark-seen": "node scripts/discover.mjs mark-seen"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
+}
